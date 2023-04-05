@@ -1,0 +1,118 @@
+
+body {
+    background-color: #e3f8df;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+   
+  }
+  
+
+
+
+  
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+
+
+
+  #foto {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .foto_marco {
+    border: 4px solid #3f3112;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .foto_edu {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+
+  #datozz {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .contenido {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .contenido td {
+    padding: 10px;
+    border-bottom: 1px solid #7a6f6f;
+  }
+  
+  h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+
+
+
+ 
+  #extra {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  #extra h4 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #extra p {
+    margin: 10px 0;
+  }
+
+
+
+
+
+  footer {
+    background-color: #646363;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* esta etiqueta fue recuperado de fuentes de terceros */
+  input[type="submit"] {
+    border: none;
+    background-color: #f7e8e8;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+
+  
+  

@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Presentacion personal </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='ejemplo02.css'>
     <script src='main.js'></script>
 </head>
 <body>
@@ -15,21 +15,23 @@
         </div>
     </Head>
     
-    <div >
-    <table border="1">
-        <tr> 
+    <div id="foto">
+    <table class="foto_marco">
+        <tr class="code"> 
             <td>    
-                <h4> codigo: A309165</h4>
+                <h4>codigo: A309165</h4>
             </td>
         </tr>
         <tr>    
             <td>
-                <img class="foto_edu" src="foto_FE.png" height="200px" width="200px">
+                <img class="foto_edu" src="foto_FE.png" heigth="100%" width="100%">
             </td>
         </tr>
     </table>
     </div>
-        <table>
+
+    <div id="datozz">
+        <table class="contenido">
             <tr>
                 <td>    
                     <h4>Nombre:</h4>
@@ -59,33 +61,23 @@
                     <h4>idiomas:</h4>
                 </td>
                 <td>    
-                    <p>Español <i>(idioma natal)</i> <b>//</b> Ingles <i>(2do idioma nivel B2)</i></p>
+                    <p>Español <i>(idioma natal)</i> <br/> Ingles <i>(2do idioma nivel B2)</i></p>
                 </td>
             </tr>
-            <tr>
-                <td>    
-                    <h4>Comida <br/> preferida:</h4>
-                </td>
-                <td>    
-                    <img src="comida_preferida.jfif" width="200px">
-                </td>
-            </tr>
-            <tr>
-                <td>    
-                    <h4>sobre mi:</h4>
-                </td>
-                <td>    
-                    <p>Mi recidencia queda en Moquegua, Mariscal Nieto, <b>ChenChen</b>. 
-                        Soy de una estatura promedio dentro del pais (1.63 mts).<br/> 
-                        Me apasiona reparar cosas y crear productos ya sean hardware o software. <br/> 
-                        Mis hobbies consisten en jugar videojuegos (de todo tipo), cocinar y escuchar musica.</p>
-                </td>
-            </tr>
-
         </table>
+    </div>
+
+    <div id="extra">
+        <h4>sobre mi:</h4>         
+        <p>Mi recidencia queda en Moquegua, Mariscal Nieto, <b>ChenChen</b>. 
+        Soy de una estatura promedio dentro del pais (1.63 mts).<br/> 
+        Me apasiona reparar cosas y crear productos ya sean hardware o software. <br/> 
+        Mis hobbies consisten en jugar videojuegos (de todo tipo), cocinar y escuchar musica.</p>
+    </div>           
+        
     <footer>
         <form> 
-            <label for="opinion"> Como te parecio la presentacion? :</label>
+            <label for="opinion"> Como te parecio la presentacion? :<br/></label>
             <input type="submit" name="opinion" value="Buena">
             <input type="submit" name="opinion" value="falta practica">
             <input type="submit" name="opinion" value="yo lo podria hacerlo mejor xD">
